@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+
+.container-fluid {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.blackedout {
+    background-color: #000;
+    opacity: 0.4;
+    width: 100%;
+    height: 100%;
+}
+
+.mainheader {
+    background: url(../IMG/Auto_Volkswagen_Volkswagen_Golf_GTI_031354_.jpg) no-repeat fixed center;
+    height: 610px;
+    width: 100%;
+    padding: 0;
+}
+
+.frontnameheader {
+    color: #FFF;
+    padding-top: 256px;
+    opacity: 1;
+}
+
+/* NAV */
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #e1e1e1;
+    font-weight: bold;
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #F22738;
+    transition: all 0.4s;
+}
+
+.navbar-dark .navbar-brand {
+    color: #F22738;
+}
+
+/* SEARCHBAR */
+
+.hidden {
+    display: none;
+    padding-left: 10px;
+}
+
+.searchbar {
+    padding-left: 23px;
+    padding-top: 5px;
+}
+
+.searchinput {
+    background-color: transparent;
+}
+
+.searchsubmit {
+    background-color: transparent;
+    border: 1px solid #000;
+    color: #e1e1e1;
+}
+
+.searchsubmit:hover {
+    background-color: #FFF;
+    color: #000;
+    border: 1px solid #000;
+}
+
+#searchicon,
+#show {
+    background-color: transparent;
+    border-style: none;
+    color: #e1e1e1;
+    padding-left: 8px;
+    font-size: 28px;
+}
+
+#show:hover {
+    color: #F22738;
+    transition: all 0.4s;
+}
+
+/* CONTACT START */
+
+#main-footer {
+    background-color: #FFF;
+    padding-top: 30px;
+    height: 600px;
+}
+
+#headercontact {
+    padding-top: 30px;
+    padding-bottom: 43px;
+}
+
+
+.inputfocus {
+    width: 400px;
+    align-items: right;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    padding-top: 159px;
+}
+
+.inputfocus label {
+    margin-bottom: 2px;
+    margin-top: 4px;
+}
+
+.inputy {
+    width: 338px;
+    margin-top: 5px;
+    background-color: #F7F7F7;
+    border: 1px solid black;
+
+}
+
+#textarea {
+    height: 80px;
+    width: 338px;
+    background-color: #F7F7F7;
+    border: 1px solid black;
+}
+
+#submit {
+    margin-top: 15px;
+    background-color: #F7F7F7;
+    color: #000;
+    border: 1px solid black;
+    border-radius: 4%
+}
+
+#submit:hover {
+    background-color: #000;
+    color: #F7F7F7;
+    transition: all 0.4s;
+}
+
+#mydata {
+    text-decoration: none;
+    display: inline-block;
+    width: 400px;
+    padding: 2px 62px;
+    font-size: 45px;
+    text-decoration: none;
+    color: #000;
+}
+
+#mydata a {
+    color: #000;
+}
+
+#mydata a:hover {
+    font-size: 45px;
+    transition: all 0.4s;
+}
+
+/* CONTACT STOP */
+
+/* FONTAWESOME */
+
+i.fa {
+    width: 50px;
+    height: 50px;
+    line-height: 48px;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    background: #000;
+    color: #FFF;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 40px;
+    transition: all .4s;
+}
+
+i.fa:hover {
+    color: #000;
+    background: #FFF;
+}
+
+.socialmedia {
+    margin-left: 57px;
+}
+
+/* FONTAWESOME STOP */
+
+/* FOOTER */
+
+#mainfooter {
+    margin-left: 60px;
+    margin-top: 195px;
+}
+
+/* FOOTER END */

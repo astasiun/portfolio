@@ -6,7 +6,7 @@
     <title>Adam Stasiun || Web Developer</title>
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="/bootstrap-4/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/contact.css">
     <link rel="stylesheet" href="/css/responsive.css">
     <link rel="stylesheet" href="/font-awesome-4.7.0/css/font-awesome.min.css">
 </head>
@@ -35,8 +35,8 @@
             <div class="navbar-nav">
                 <a class="nav-item nav-link" href="https://astasiun.github.io/astasiun/">BIO <span class="sr-only">(current)</span></a>
                 <!--                <a class="nav-item nav-link" href="#">Osiągnięcia</a>-->
-                <a class="nav-item nav-link" href="index.html">Blog</a>
-                <a class="nav-item nav-link" href="#main-footer">Kontakt</a>
+                <a class="nav-item nav-link" href="../index.html">Blog</a>
+                <a class="nav-item nav-link" href="/BLOG/contact.html">Kontakt</a>
                 <a class="nav-item nav-link" href="#">Galeria</a>
                 <a class="nav-item nav-link" href="https://github.com/astasiun">Github</a>
                 <button id="searchicon"><i class="fa fa-search" id="show" aria-hidden="true"></i></button>
@@ -49,9 +49,50 @@
             </div>
         </div>
     </nav>
+    
+<!-- CONTACT  -->
+    
+    <div>
+        <form class="inputfocus" id="formspree" action="https://formspree.io/a.stasiun@icloud.com" method="POST">
+            <label for="imie">Podaj Imię</label><br>
+            <input class="inputy" type="text" placeholder="Imię" name="Imie"><br>
+            <label for="nazwizko">Podaj Nazwisko</label><br>
+            <input class="inputy" type="text" placeholder="Nazwisko" name="Nazwisko"><br>
+            <label for="Email">Email</label><br>
+            <input class="inputy" type="email" name="Email" placeholder="&#64;Email"><br>
+            <label for="Numer Telefonu">Numer</label><br>
+            <input class="inputy" type="Numer Telefonu" placeholder="Numer Telefonu" name="Numer Telefonu"><br>
+            <label for="Wiadomość">Tutaj wpisz wiadomość</label><br>
+            <textarea id="textarea" name="Wiadomość" cols="30" rows="10" placeholder="Wiadomość"></textarea><br>
+            <input type="submit" id="submit" value="Wyślij">
+        </form>
+    </div>
+    <!-- FOOTER START -->
+    <footer id="main-footer">
+        <h3 class="text-center" id="headercontact">Kontakt</h3>
+
+
+        <address id="mydata">
+<a href="mailto:a.stasiun@icloud.com">Adam Stasiun</a><br> 
+<br>
+</address>
+        <div class="socialmedia">
+            <a href="https://www.facebook.com/adam.stasiun"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/a_stasiun"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/adam-stasiun-370b37155/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        </div>
+        
+<!--  CONTACT END -->
 
     <!-- FOOTER START -->
     <div id="mainfooter">
 
     </div>
+    </footer>
     <!--FOOTER END -->
+    
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+    </body>
