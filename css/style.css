@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+
+.container-fluid {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.blackedout {
+    background-color: #000;
+    opacity: 0.4;
+    width: 100%;
+    height: 100%;
+}
+
+.mainheader {
+    background: url(../IMG/Auto_Volkswagen_Volkswagen_Golf_GTI_031354_.jpg) no-repeat fixed center;
+    height: 610px;
+    width: 100%;
+    padding: 0;
+}
+
+.frontnameheader {
+    color: #FFF;
+    padding-top: 256px;
+    opacity: 1;
+}
+
+/* NAV */
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #e1e1e1;
+    font-weight: bold;
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #F22738;
+    transition: all 0.4s;
+}
+
+.navbar-dark .navbar-brand {
+    color: #F22738;
+}
+
+/* SEARCHBAR */
+
+.hidden {
+    display: none;
+    padding-left: 10px;
+}
+
+.searchbar {
+    padding-left: 23px;
+    padding-top: 5px;
+}
+
+.searchinput {
+    background-color: transparent;
+}
+
+.searchsubmit {
+    background-color: transparent;
+    border: 1px solid #000;
+    color: #e1e1e1;
+}
+
+.searchsubmit:hover {
+    background-color: #FFF;
+    color: #000;
+    border: 1px solid #000;
+}
+
+#searchicon,
+#show {
+    background-color: transparent;
+    border-style: none;
+    color: #e1e1e1;
+    padding-left: 8px;
+    font-size: 28px;
+}
+
+#show:hover {
+    color: #F22738;
+    transition: all 0.4s;
+}
+
+/* SEARCHBAR END */
+
+/* TEST */
+body {
+  background-color: #1D1F20;
+  cursor: pointer;
+  width: 100vw;
+  height: 100vh;
+}
+.text{
+  display: inline-block;
+  color: #f6f6f6;
+  text-transform: capitalize;
+  text-align: center;
+  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  top: 50px;
+  font-size: 2em;
+  letter-spacing: 1px;
+  transform: translateX(-50%);
+  border-bottom: 1px solid #f6f6f6;
+}
+.wrapper {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-30%);
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.element {
+  width: 0;
+  height: 50px;
+  position: relative;
+  margin-bottom: 5px;
+  border: 1px solid #f2f2f2;
+  box-shadow: 0 0 2px #f2f2f2;
+/*   border-radius: 50%; */
+}
+
+#one {
+  width: 50px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+#two {
+  position: relative;
+  left: 62px;
+  top: -20px;
+  transform: rotate(-45deg);
+}
+/* TEST END */
+
+/* BLOG POSTS */
+
+/* BLOG POSTS */
+
+/* BLOG POSTS */
+
+/* BLOG POSTS */
+
+/* BLOG POSTS */
+
+/* POST SETTINGS */
+
+
+
+/* POST SETTINGS END */
+
+/* PAGINATION SETTINGS */
+
+ul.pagination {
+    width: 400px;
+    margin-top: 20px;
+    margin-left: 46%;
+    padding: 0;
+    align-items: center;
+    color: #000;
+}
+
+.page-link {
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #d1d1d1;
+}
+
+/* PAGINATION END */
+
+/* FOOTER */
+
+#mainfooter {
+    margin-left: 59px;
+    margin-top: 50px;
+}
+
+/* FOOTER END */

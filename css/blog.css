@@ -1,0 +1,93 @@
+.panel-body {
+    height: 100%;
+    padding-top: 80px;
+}
+
+.post {
+    height: 100%;
+    padding-bottom: 50px;
+    border-bottom: 1px solid black;
+}
+
+.thumbnail.post-image {
+    float: left;
+    margin-right: 20px;
+}
+
+h2.post-title {
+    color: #000;
+    font-size: 40px;
+}
+
+
+a.post-title {
+    text-decoration: none;
+    color: #000;
+}
+
+p.post-text {
+    padding-bottom: 20px;
+    height: 100%;
+    width: 1050px;
+}
+
+button.btn.btn-primary {
+    background: #000;
+    border: 1px solid black;
+}
+
+button.btn.btn-primary:hover {
+    background-color: #FFF;
+    color: #000;
+    transition: all 0.4s;
+}
+
+.post-socialmedia {
+    color: #000;
+}
+
+.post-socialmedia:hover {
+    color: darkblue;
+}
+
+.date {
+    color: grey;
+    font-size: 12px;
+}
+
+/* POST SETTINGS END */
+
+/* PAGINATION SETTINGS */
+
+ul.pagination {
+    width: 400px;
+    margin-top: 20px;
+    margin-left: 46%;
+    padding: 0;
+    align-items: center;
+    color: #000;
+}
+
+.page-link {
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #d1d1d1;
+}
+
+/* COMMENT SECTION */
+
+#disqus_thread {
+    overflow: hidden;
+    width: 1000px;
+    margin-left: 217px;
+}
+
+.tab-community {
+    float: left;
+    visibility: hidden;
+}

@@ -1,0 +1,111 @@
+<!-- POST TEMPLATE -->
+
+<div class="container">
+        <div class="left-panel">
+            <div class="col-xs-12 col-sm-12 col-lg-12">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div class="col-md-12">
+                            <div class="thumbnail post-image">
+                                <a href="#"><img class="rounded-circle" src="IMG/100_7264.JPG" alt="" width="100px" height="auto"/></a>
+                            </div>
+                            <div class="post">
+                                <a class="post-title" href="#">
+                                    <h2>Post title<br><span class="date"> 12.04.2018</span></h2>
+                                </a>
+                                <p class="post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut condimentum eget nunc quis semper. Nunc pellentesque nec libero sed viverra. Donec turpis velit, suscipit sit amet mauris quis, viverra ornare massa. Morbi tellus eros, fringilla eu sodales id, ultricies ut sapien. Duis et tristique enim, vitae mattis neque. Aliquam efficitur, dui id laoreet blandit, lorem […]</p>
+                                <div class="btn-group">
+                                    <a class="btn btn-social btn-facebook post-socialmedia" href="#" data-toggle="tooltip" title="Share Facebook"><i class="fa fa-facebook"></i></a>
+                                    <a class="btn btn-social btn-twitter post-socialmedia" href="#" data-toggle="tooltip" title="Share Twitter"><i class="fa fa-twitter"></i></a>
+                                    <a class="btn btn-social btn-google post-socialmedia" href="#" data-toggle="tooltip" title="Share Google"><i class="fa fa-google"></i></a>
+                                </div>
+                                <a href="#">
+    						 <button type="button" class="btn btn-primary">
+    							<span class="btn btn-google">Read More <i class="fa fa-chevron-right"></i></span>
+    						 </button>
+    						 </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- POST TEMPLATE --> ===== END OF HTML =====================================
+    
+    
+=================================== CSS ==========================================
+    
+/* BLOG POSTS */
+
+/* BLOG POSTS */
+
+/* BLOG POSTS */
+
+/* BLOG POSTS */
+
+/* BLOG POSTS */
+
+/* POST SETTINGS */
+
+.panel-body {
+    height: 100%;
+    padding-top: 80px;
+}
+
+.post {
+    height: 100%;
+    padding-bottom: 50px;
+    border-bottom: 1px solid black;
+}
+
+.thumbnail.post-image {
+    float: left;
+    margin-right: 20px;
+}
+
+h2.post-title {
+    color: #000;
+    font-size: 40px;
+}
+
+
+a.post-title {
+    text-decoration: none;
+    color: #000;
+}
+
+p.post-text {
+    padding-bottom: 20px;
+    height: 100%;
+    width: 1050px;
+}
+
+button.btn.btn-primary {
+    background: #000;
+    border: 1px solid black;
+}
+
+button.btn.btn-primary:hover {
+    background-color: #FFF;
+    color: #000;
+    transition: all 0.4s;
+}
+
+.post-socialmedia {
+    color: #000;
+}
+
+.post-socialmedia:hover {
+	color: darkblue;
+}
+
+.date {
+    color: grey;
+    font-size: 12px;
+}
+
+
+
+/* POST SETTINGS END */
