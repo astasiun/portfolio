@@ -91,3 +91,13 @@ ul.pagination {
     float: left;
     visibility: hidden;
 }
+
+.showcomments {
+    margin: 9px 0px 4px 195px;
+    width: 140px;
+    height: 44px;
+}
+
+.commentcloud {
+	margin-right: 5px;
+}
